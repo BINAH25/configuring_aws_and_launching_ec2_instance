@@ -57,7 +57,7 @@
     
 ![alt text](image-8.png)
 
-10. **ssh into the instance:**
+1. **ssh into the instance:**
    ```bash 
     ssh -i dev.pem ubuntu@ec2-44-203-156-189.compute-1.amazonaws.com
     
