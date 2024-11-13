@@ -64,14 +64,14 @@
 ![alt text](image-9.png)
 
 
-10. **terminating the instance:**
+2. **terminating the instance:**
    ```bash 
     aws ec2 terminate-instances --instance-ids i-05d391dff39e320a8 --profile myprofile
     
 ![alt text](image-10.png)
 
 
-10. **verifying that the instance is terminated to avoid charges:**
+3. **verifying that the instance is terminated to avoid charges:**
    ```bash 
     aws ec2 describe-instances --profile myprofile --query "Reservations[*].Instances[*].[InstanceId,State.Name]" --output table
     
