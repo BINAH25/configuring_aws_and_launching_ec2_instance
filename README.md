@@ -1,5 +1,4 @@
 # configuring_aws_and_launching_ec2_instance
-# configuring_aws_and_launching_ec2_instance
 
 1. **Installing aws cli:**
    ```bash
